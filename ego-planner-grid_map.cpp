@@ -116,8 +116,7 @@ publishMeshes(CBS输出,time_index)
   meshROS.color.g = color_g;
   meshROS.color.b = color_b;
   meshROS.mesh_resource = mesh_resource;
-  meshPub.publish(meshROS);                                                  
-
+  meshPub.publish(meshROS); 
 }
 
 main{

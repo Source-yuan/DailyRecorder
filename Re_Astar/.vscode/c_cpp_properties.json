@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/",
+                "/usr/include/",
+                "/usr/include/eigen3/",
+                "/opt/ros/melodic/include/",
+                "/usr/include/pcl-1.8/pcl/",
+                "/opt/ros/melodic/include/pcl_ros/",
+                "/opt/ros/melodic/include/pcl_conversions/",
+                "/usr/include/pcl-1.8",
+                "/usr/include/c++/7/bits"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
